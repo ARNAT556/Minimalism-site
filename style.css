@@ -1,0 +1,24 @@
+/* Анимация для изменения цвета фона */
+@keyframes background-color-change {
+    0% { background-color: black; }
+    50% { background-color: white; }
+    100% { background-color: black; }
+  }
+  
+  /* Анимация для изменения цвета текста */
+  @keyframes text-color-change {
+    0% { color: white; }
+    50% { color: black; }
+    100% { color: white; }
+  }
+  
+  /* Применение анимации фона ко всему body */
+  body {
+    animation: background-color-change 5s infinite;
+  }
+  
+  /* Применение анимации текста к элементу h1 */
+  h1 {
+    animation: text-color-change 5s infinite;
+  }
+  
